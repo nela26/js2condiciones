@@ -1,0 +1,63 @@
+/*importando tipo de letra para la pag*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    max-height: 100%;
+    margin: 3%;
+}
+
+h1 {
+    size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.cont {
+    background-color: green;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+    padding: 50px;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+select {
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    margin: 20px;
+}
+
+.boton {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.boton2 {
+    height: 80px;
+    width: 150px;
+    margin: 20px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password</title>
+    <!--favicon-->
+    <link rel="icon" type="iconos/png" href="assets/img/chek.jpg">
+    <!--llamado a archivo normalize.css-->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <!--llamado al css-->
+    <link rel="stylesheet" href="assets/css/pass.css">
+</head>
+
+<body>
+    <h1>
+        DESAFIO 3 <br> MOSTRANDO PASSWORD
+    </h1>
+
+    <!--SELECCION DE DIGITOS PARA PASSWORD-->
+    <div class="cont">
+        <div>
+            <h2>
+                Introduce la Contraseña
+            </h2>
+            <div class="cont2">
+                <!--primer dijito de la contraseña-->
+                <form action="">
+                    <select id="pas1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0" selected>0</option>
+                </select>
+                    <!--segundo dijito de la contraseña-->
+                    <select id="pas2">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0" selected>0</option>
+                </select>
+                    <!--tercer dijito de la contraseña-->
+                    <select id="pas3">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="0" selected>0</option>
+                </select>
+                </form>
+            </div>
+
+            <!--FUNCIONES: ONCLICK= CHECK-->
+            <div class="botons">
+                <button class="boton " onclick="check()">
+                    <p>Obtener</p> 
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <!--otros desafios-->
+    <div class="cont3">
+        <p>
+            <button class="boton2">
+            <a href="cuadro.html">Ir a desafio 1 CUADRO</a>
+            </button>
+        </p>
+        <p>
+            <button class="boton2">
+                <a href="STICKERS.html"> Ir a desafio 2 STICKERS</a>
+            </button>
+        </p>
+    </div>
+
+    <!--llamado al JS-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
